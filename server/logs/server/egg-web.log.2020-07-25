@@ -1,0 +1,38 @@
+2020-07-25 00:00:01,114 INFO 460 [egg-logrotator] app logger reload: got log-reload message
+2020-07-25 13:30:10,785 INFO 5196 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\Administrator\\Desktop\\创建项目\\dame-c\\server\\logs\\server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-07-25 13:30:10,837 INFO 5196 [egg-multipart] stream mode enable
+2020-07-25 13:30:14,973 INFO 5196 [egg-mongoose] connecting mongodb://127.0.0.1/shoppingMall
+2020-07-25 13:30:17,885 INFO 5196 [egg-static] starting static serve /public/ -> C:\Users\Administrator\Desktop\创建项目\dame-c\server\app\public
+2020-07-25 13:30:17,888 INFO 5196 [egg-security] use methodnoallow middleware
+2020-07-25 13:30:17,889 INFO 5196 [egg-security] use noopen middleware
+2020-07-25 13:30:17,891 INFO 5196 [egg-security] use nosniff middleware
+2020-07-25 13:30:17,891 INFO 5196 [egg-security] use xssProtection middleware
+2020-07-25 13:30:17,892 INFO 5196 [egg-security] use xframe middleware
+2020-07-25 13:30:17,894 INFO 5196 [egg-security] use dta middleware
+2020-07-25 13:30:17,894 INFO 5196 [egg-security] compose 6 middlewares into one security middleware
+2020-07-25 13:30:18,038 INFO 5196 [egg:core] dump config after load, 8ms
+2020-07-25 13:30:18,045 INFO 5196 [egg-mongoose] starting...
+2020-07-25 13:30:18,151 INFO 5196 [egg-mongoose] mongodb://127.0.0.1/shoppingMall connected successfully
+2020-07-25 13:30:18,160 INFO 5196 [egg-mongoose] instance[0] start successfully
+2020-07-25 13:30:18,162 INFO 5196 [egg-watcher:application] watcher start success
+2020-07-25 13:30:18,174 INFO 5196 [egg:core] dump config after ready, 9ms
+2020-07-25 14:29:42,914 INFO 1988 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\Administrator\\Desktop\\创建项目\\dame-c\\server\\logs\\server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-07-25 14:29:42,970 INFO 1988 [egg-multipart] stream mode enable
+2020-07-25 14:29:44,200 INFO 1988 [egg-mongoose] connecting mongodb://127.0.0.1/shoppingMall
+2020-07-25 14:29:44,957 INFO 1988 [egg-static] starting static serve /public/ -> C:\Users\Administrator\Desktop\创建项目\dame-c\server\app\public
+2020-07-25 14:29:44,965 INFO 1988 [egg-security] use methodnoallow middleware
+2020-07-25 14:29:44,966 INFO 1988 [egg-security] use noopen middleware
+2020-07-25 14:29:44,971 INFO 1988 [egg-security] use nosniff middleware
+2020-07-25 14:29:44,972 INFO 1988 [egg-security] use xssProtection middleware
+2020-07-25 14:29:44,973 INFO 1988 [egg-security] use xframe middleware
+2020-07-25 14:29:44,974 INFO 1988 [egg-security] use dta middleware
+2020-07-25 14:29:44,974 INFO 1988 [egg-security] compose 6 middlewares into one security middleware
+2020-07-25 14:29:45,009 INFO 1988 [egg:core] dump config after load, 9ms
+2020-07-25 14:29:45,016 INFO 1988 [egg-mongoose] starting...
+2020-07-25 14:29:45,202 INFO 1988 [egg-mongoose] mongodb://127.0.0.1/shoppingMall connected successfully
+2020-07-25 14:29:45,319 INFO 1988 [egg-mongoose] instance[0] start successfully
+2020-07-25 14:29:45,333 INFO 1988 [egg-watcher:application] watcher start success
+2020-07-25 14:29:45,412 INFO 1988 [egg:core] dump config after ready, 59ms
+2020-07-26 00:00:03,416 INFO 1988 [egg-logrotator] clean all log before 31 days
+2020-07-26 00:00:03,535 INFO 1988 [egg-logrotator] broadcast log-reload
+2020-07-26 00:00:03,558 INFO 1988 [egg-logrotator] rotate files success by DayRotator, files ["C:\\Users\\Administrator\\Desktop\\创建项目\\dame-c\\server\\logs\\server\\common-error.log -> C:\\Users\\Administrator\\Desktop\\创建项目\\dame-c\\server\\logs\\server\\common-error.log.2020-07-25","C:\\Users\\Administrator\\Desktop\\创建项目\\dame-c\\server\\logs\\server\\server-web.log -> C:\\Users\\Administrator\\Desktop\\创建项目\\dame-c\\server\\logs\\server\\server-web.log.2020-07-25","C:\\Users\\Administrator\\Desktop\\创建项目\\dame-c\\server\\logs\\server\\egg-web.log -> C:\\Users\\Administrator\\Desktop\\创建项目\\dame-c\\server\\logs\\server\\egg-web.log.2020-07-25","C:\\Users\\Administrator\\Desktop\\创建项目\\dame-c\\server\\logs\\server\\egg-schedule.log -> C:\\Users\\Administrator\\Desktop\\创建项目\\dame-c\\server\\logs\\server\\egg-schedule.log.2020-07-25","C:\\Users\\Administrator\\Desktop\\创建项目\\dame-c\\server\\logs\\server\\egg-agent.log -> C:\\Users\\Administrator\\Desktop\\创建项目\\dame-c\\server\\logs\\server\\egg-agent.log.2020-07-25"]

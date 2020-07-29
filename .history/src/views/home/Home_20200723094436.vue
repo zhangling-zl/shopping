@@ -1,0 +1,140 @@
+<template>
+  <div>
+    <Htop></Htop>
+    <div>
+      <div class="wrapper" ref="wrapper">
+        <ul class="content">
+          <!--轮播图-->
+          <li>
+            <Hbannner :banner="banner"></Hbannner>
+          </li>
+          <!--分类-->
+          <li>
+            <Hcategory :category="category" :advertesPicture="advertesPicture"></Hcategory>
+          </li>
+          <!--商品推荐-->
+          <li>
+            <Hrecommend :recommend="recommend" v-if="recommend.length>0"></Hrecommend>
+          </li>
+          <!--商品楼-->
+          <li>
+            <HsortsAll name="1F" :floorName="floorName.floor1" :floor="floor1"></HsortsAll>
+            <HsortsAll name="2F" :floorName="floorName.floor2" :floor="floor2"></HsortsAll>
+            <HsortsAll name="3F" :floorName="floorName.floor3" :floor="floor3"></HsortsAll>
+          </li>
+
+          <!--热销商品-->
+          <li>
+            <Hdemand :hotGoods="hotGoods" v-if="hotGoods.length>0"></Hdemand>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</template>
+
+<script>
+import BScroll from "better-scroll";
+// import { Swipe, SwipeItem } from "vant";
+import Htop from "../../components/homeA/Htop";
+import Hbannner from "../../components/homeA/Hbannner";
+import Hcategory from "../../components/homeA/Hcategory";
+import Hrecommend from "../../components/homeA/Hrecommend";
+import HsortsAll from "../../components/homeA/HsortsAll";
+import Hdemand from "../../components/homeA/Hdemand";
+
+export default {
+  name: "",
+  props: {},
+  components: {
+    Htop, //导航栏
+    Hbannner, //轮播图
+    Hcategory, //分类
+    Hrecommend, //商品推荐
+    HsortsAll, //商品楼
+    Hdemand, //热销商品
+  },
+  data() {
+    return {
+      // isLoading: false, //下拉刷新
+      banner: [], //轮播图
+      category: [], //分类
+      advertesPicture: {},
+      recommend: [], //商品推荐
+      floorName: {}, //商品楼名称
+      floor1: [], //休闲食品
+      floor2: [], //新鲜水果
+      floor3: [], //营养奶品
+      hotGoods: [], //热销商品
+    };
+  },
+  methods: {
+    //首页请求数据
+    getRecommend() {
+      this.$api
+        .getRecommend()
+        .then((res) => {
+          if (res.code === 200) {
+            console.log(res);
+            this.banner = res.data.slides; //轮播图
+            this.category = res.data.category; //分类
+            (this.advertesPicture = res.data.advertesPicture), //广告图
+              (this.recommend = res.data.recommend); //商品推荐
+            this.floorName = res.data.floorName; //商品楼名称
+            this.floor1 = res.data.floor1; //休闲食品
+            this.floor2 = res.data.floor2; //新鲜水果
+            this.floor3 = res.data.floor3; //营养奶品
+            this.hotGoods = res.data.hotGoods; //热销商品
+
+            localStorage.setItem(
+              "categoriesData",
+              JSON.stringify(res.data.category)
+            );
+            //本地储存，本地储存之后任何页面都可以用
+            //Vuex:一刷新数据就不存在了
+            //路由传参：因为传的数据需要在那个页面接收才能用
+          }
+        })
+        .catch((err) => {
+          console.log(err);
+        });
+    },
+
+    //下拉刷新
+    // onRefresh() {
+    //   setTimeout(() => {
+    //     Toast("刷新成功");
+    //     this.isLoading = false;
+    //   }, 1000);
+    // }
+  },
+  mounted() {
+    new BScroll(this.$refs.wrapper, { click: true, scrollY: true });
+    //平滑滚动逻辑代码，scrollY: true,输轴滚动
+    this.getRecommend();
+  },
+  watch: {},
+  computed: {},
+};
+</script>
+
+<style scoped lang='scss'>
+.box {
+  position: absolute;
+  top: 54px;
+  width: 100%;
+  height: calc(100vh - 104px);
+}
+.wrapper {
+  margin-top: 54px;
+  overflow: hidden; /*--超出部分隐藏 --*/
+  height: calc(100vh-105px);
+  background-color: rgb(237, 237, 237);
+}
+.content {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow: hidden;
+}
+</style>

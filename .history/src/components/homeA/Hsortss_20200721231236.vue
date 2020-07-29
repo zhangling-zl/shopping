@@ -1,0 +1,58 @@
+<template>
+  <div>
+    <div class="boxs"> 
+      <div class="dv1">
+        <div v-for="(item,index) in floor2" :key="index">
+          <img v-if="index===0" :src="item.image" @click="clickFeatured(item)"/>
+          <img v-if="index===floor2.length-1" :src="item.image" @click="clickFeatured(item)"/>
+        </div>
+      </div>
+      <div class="dv2">
+        <div v-for="(item,index) in floor2" :key="index">
+          <img  v-if="index!==0 && index!==floor2.length-1" :src="item.image" @click="clickFeatured(item)"/>
+        </div>
+      </div>
+    </div>
+  </div>
+</template>
+<script>
+export default {
+  name: "",
+  props: {
+    floor2: {
+      type: Array
+    }
+  },
+  components: {},
+  data() {
+    return {
+      id:''
+    };
+  },
+  methods: {
+      //传id值
+    clickFeatured(item){
+       this.$router.push({ path: "/details", query: { id: item.goodsId } });
+      // console.log(item.goodsId);
+    }
+  },
+  mounted() {},
+  watch: {},
+  computed: {}
+};
+</script>
+
+<style scoped lang='scss'>
+.dv1,.dv2{
+    flex: 1;
+}
+.boxs{
+  width: 100%;
+  display: flex;
+  font-size: 0;
+}
+img{
+  width: 100%;
+  height: 100%;
+}
+</style>

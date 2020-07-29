@@ -1,0 +1,196 @@
+2020-07-24 10:50:11,816 ERROR 7900 [-/127.0.0.1/-/37ms POST /v1/saveUser] nodejs.CastError: Cast to ObjectId failed for value "f+ikm2-j+8962_h" at path "_id" for model "User"
+    at model.Query.exec (C:\Users\Administrator\Desktop\创建项目\dame-c\server\node_modules\_mongoose@5.9.25@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\Administrator\Desktop\创建项目\dame-c\server\node_modules\_mongoose@5.9.25@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"f+ikm2-j+8962_h\""
+kind: "ObjectId"
+value: "f+ikm2-j+8962_h"
+path: "_id"
+reason: {}
+pid: 7900
+hostname: AUTOBVT-9E07G35
+
+2020-07-24 10:54:24,187 ERROR 7900 [-/127.0.0.1/-/1ms POST /v1/saveUser] nodejs.CastError: Cast to ObjectId failed for value "f+ikm2-j+8962_h" at path "_id" for model "User"
+    at model.Query.exec (C:\Users\Administrator\Desktop\创建项目\dame-c\server\node_modules\_mongoose@5.9.25@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\Administrator\Desktop\创建项目\dame-c\server\node_modules\_mongoose@5.9.25@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"f+ikm2-j+8962_h\""
+kind: "ObjectId"
+value: "f+ikm2-j+8962_h"
+path: "_id"
+reason: {}
+pid: 7900
+hostname: AUTOBVT-9E07G35
+
+2020-07-24 10:54:26,275 ERROR 7900 [-/127.0.0.1/-/1ms POST /v1/saveUser] nodejs.CastError: Cast to ObjectId failed for value "f+ikm2-j+8962_h" at path "_id" for model "User"
+    at model.Query.exec (C:\Users\Administrator\Desktop\创建项目\dame-c\server\node_modules\_mongoose@5.9.25@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\Administrator\Desktop\创建项目\dame-c\server\node_modules\_mongoose@5.9.25@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"f+ikm2-j+8962_h\""
+kind: "ObjectId"
+value: "f+ikm2-j+8962_h"
+path: "_id"
+reason: {}
+pid: 7900
+hostname: AUTOBVT-9E07G35
+
+2020-07-24 10:54:26,546 ERROR 7900 [-/127.0.0.1/-/2ms POST /v1/saveUser] nodejs.CastError: Cast to ObjectId failed for value "f+ikm2-j+8962_h" at path "_id" for model "User"
+    at model.Query.exec (C:\Users\Administrator\Desktop\创建项目\dame-c\server\node_modules\_mongoose@5.9.25@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\Administrator\Desktop\创建项目\dame-c\server\node_modules\_mongoose@5.9.25@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"f+ikm2-j+8962_h\""
+kind: "ObjectId"
+value: "f+ikm2-j+8962_h"
+path: "_id"
+reason: {}
+pid: 7900
+hostname: AUTOBVT-9E07G35
+
+2020-07-24 10:57:08,097 ERROR 7900 [-/127.0.0.1/-/1ms POST /v1/saveUser] nodejs.CastError: Cast to ObjectId failed for value "f+ikm2-j+8962_h" at path "_id" for model "User"
+    at model.Query.exec (C:\Users\Administrator\Desktop\创建项目\dame-c\server\node_modules\_mongoose@5.9.25@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\Administrator\Desktop\创建项目\dame-c\server\node_modules\_mongoose@5.9.25@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"f+ikm2-j+8962_h\""
+kind: "ObjectId"
+value: "f+ikm2-j+8962_h"
+path: "_id"
+reason: {}
+pid: 7900
+hostname: AUTOBVT-9E07G35
+
+2020-07-24 13:39:53,793 ERROR 7900 [-/127.0.0.1/-/2ms POST /v1/saveUser] nodejs.CastError: Cast to ObjectId failed for value "+59a1058da37j-510" at path "_id" for model "User"
+    at model.Query.exec (C:\Users\Administrator\Desktop\创建项目\dame-c\server\node_modules\_mongoose@5.9.25@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\Administrator\Desktop\创建项目\dame-c\server\node_modules\_mongoose@5.9.25@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"+59a1058da37j-510\""
+kind: "ObjectId"
+value: "+59a1058da37j-510"
+path: "_id"
+reason: {}
+pid: 7900
+hostname: AUTOBVT-9E07G35
+
+2020-07-24 13:40:37,788 ERROR 7900 [-/127.0.0.1/-/1ms POST /v1/saveUser] nodejs.CastError: Cast to ObjectId failed for value "+59a1058da37j-510" at path "_id" for model "User"
+    at model.Query.exec (C:\Users\Administrator\Desktop\创建项目\dame-c\server\node_modules\_mongoose@5.9.25@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\Administrator\Desktop\创建项目\dame-c\server\node_modules\_mongoose@5.9.25@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"+59a1058da37j-510\""
+kind: "ObjectId"
+value: "+59a1058da37j-510"
+path: "_id"
+reason: {}
+pid: 7900
+hostname: AUTOBVT-9E07G35
+
+2020-07-24 13:40:52,297 ERROR 7900 [-/127.0.0.1/-/1ms POST /v1/saveUser] nodejs.CastError: Cast to ObjectId failed for value "+59a1058da37j-510" at path "_id" for model "User"
+    at model.Query.exec (C:\Users\Administrator\Desktop\创建项目\dame-c\server\node_modules\_mongoose@5.9.25@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\Administrator\Desktop\创建项目\dame-c\server\node_modules\_mongoose@5.9.25@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"+59a1058da37j-510\""
+kind: "ObjectId"
+value: "+59a1058da37j-510"
+path: "_id"
+reason: {}
+pid: 7900
+hostname: AUTOBVT-9E07G35
+
+2020-07-24 13:41:24,703 ERROR 7900 [-/127.0.0.1/-/1ms POST /v1/saveUser] nodejs.CastError: Cast to ObjectId failed for value "+59a1058da37j-510" at path "_id" for model "User"
+    at model.Query.exec (C:\Users\Administrator\Desktop\创建项目\dame-c\server\node_modules\_mongoose@5.9.25@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\Administrator\Desktop\创建项目\dame-c\server\node_modules\_mongoose@5.9.25@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"+59a1058da37j-510\""
+kind: "ObjectId"
+value: "+59a1058da37j-510"
+path: "_id"
+reason: {}
+pid: 7900
+hostname: AUTOBVT-9E07G35
+
+2020-07-24 13:42:19,364 ERROR 7900 [-/127.0.0.1/-/1ms POST /v1/saveUser] nodejs.CastError: Cast to ObjectId failed for value "+59a1058da37j-510" at path "_id" for model "User"
+    at model.Query.exec (C:\Users\Administrator\Desktop\创建项目\dame-c\server\node_modules\_mongoose@5.9.25@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\Administrator\Desktop\创建项目\dame-c\server\node_modules\_mongoose@5.9.25@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"+59a1058da37j-510\""
+kind: "ObjectId"
+value: "+59a1058da37j-510"
+path: "_id"
+reason: {}
+pid: 7900
+hostname: AUTOBVT-9E07G35
+
+2020-07-24 13:45:48,573 ERROR 7900 [-/127.0.0.1/-/2ms POST /v1/saveUser] nodejs.CastError: Cast to ObjectId failed for value "+59a1058da37j-510" at path "_id" for model "User"
+    at model.Query.exec (C:\Users\Administrator\Desktop\创建项目\dame-c\server\node_modules\_mongoose@5.9.25@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\Administrator\Desktop\创建项目\dame-c\server\node_modules\_mongoose@5.9.25@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"+59a1058da37j-510\""
+kind: "ObjectId"
+value: "+59a1058da37j-510"
+path: "_id"
+reason: {}
+pid: 7900
+hostname: AUTOBVT-9E07G35
+
+2020-07-24 13:46:08,347 ERROR 7900 [-/127.0.0.1/-/1ms POST /v1/saveUser] nodejs.CastError: Cast to ObjectId failed for value "+59a1058da37j-510" at path "_id" for model "User"
+    at model.Query.exec (C:\Users\Administrator\Desktop\创建项目\dame-c\server\node_modules\_mongoose@5.9.25@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\Administrator\Desktop\创建项目\dame-c\server\node_modules\_mongoose@5.9.25@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"+59a1058da37j-510\""
+kind: "ObjectId"
+value: "+59a1058da37j-510"
+path: "_id"
+reason: {}
+pid: 7900
+hostname: AUTOBVT-9E07G35
+
+2020-07-24 13:54:49,952 ERROR 7900 [-/127.0.0.1/-/3ms POST /v1/saveUser] nodejs.CastError: Cast to ObjectId failed for value "+59a1058da37j-510" at path "_id" for model "User"
+    at model.Query.exec (C:\Users\Administrator\Desktop\创建项目\dame-c\server\node_modules\_mongoose@5.9.25@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\Administrator\Desktop\创建项目\dame-c\server\node_modules\_mongoose@5.9.25@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"+59a1058da37j-510\""
+kind: "ObjectId"
+value: "+59a1058da37j-510"
+path: "_id"
+reason: {}
+pid: 7900
+hostname: AUTOBVT-9E07G35
+
+2020-07-24 13:56:24,884 ERROR 7900 [-/127.0.0.1/-/3ms POST /v1/saveUser] nodejs.CastError: Cast to ObjectId failed for value "+59a1058da37j-510" at path "_id" for model "User"
+    at model.Query.exec (C:\Users\Administrator\Desktop\创建项目\dame-c\server\node_modules\_mongoose@5.9.25@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\Administrator\Desktop\创建项目\dame-c\server\node_modules\_mongoose@5.9.25@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"+59a1058da37j-510\""
+kind: "ObjectId"
+value: "+59a1058da37j-510"
+path: "_id"
+reason: {}
+pid: 7900
+hostname: AUTOBVT-9E07G35
+

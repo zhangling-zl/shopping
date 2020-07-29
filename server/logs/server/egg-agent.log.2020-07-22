@@ -1,0 +1,41 @@
+2020-07-22 00:00:01,135 INFO 7980 [egg-logrotator] agent logger reload: got log-reload message
+2020-07-22 08:36:53,966 INFO 8556 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\Administrator\\Desktop\\创建项目\\dame-c\\server\\logs\\server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-07-22 08:36:53,980 INFO 8556 [egg:core] dump config after load, 7ms
+2020-07-22 08:36:55,228 INFO 8556 [egg-watcher] Start watching: ["C:\\Users\\Administrator\\Desktop\\创建项目\\dame-c\\server\\app","C:\\Users\\Administrator\\Desktop\\创建项目\\dame-c\\server\\config","C:\\Users\\Administrator\\Desktop\\创建项目\\dame-c\\server\\mocks","C:\\Users\\Administrator\\Desktop\\创建项目\\dame-c\\server\\mocks_proxy","C:\\Users\\Administrator\\Desktop\\创建项目\\dame-c\\server\\app.js"]
+2020-07-22 08:36:55,228 INFO 8556 [egg-watcher] Start watching: "C:\\Users\\Administrator\\Desktop\\创建项目\\dame-c\\server\\app"
+2020-07-22 08:36:55,230 INFO 8556 [egg-watcher] Start watching: "C:\\Users\\Administrator\\Desktop\\创建项目\\dame-c\\server\\config"
+2020-07-22 08:36:55,230 INFO 8556 [egg-watcher] Start watching: "C:\\Users\\Administrator\\Desktop\\创建项目\\dame-c\\server\\mocks"
+2020-07-22 08:36:55,231 INFO 8556 [egg-watcher] Start watching: "C:\\Users\\Administrator\\Desktop\\创建项目\\dame-c\\server\\mocks_proxy"
+2020-07-22 08:36:55,231 INFO 8556 [egg-watcher] Start watching: "C:\\Users\\Administrator\\Desktop\\创建项目\\dame-c\\server\\app.js"
+2020-07-22 08:36:55,232 INFO 8556 [egg-watcher:agent] watcher start success
+2020-07-22 08:36:55,424 INFO 8556 [egg:core] dump config after ready, 12ms
+2020-07-22 08:39:20,904 INFO 8096 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\Administrator\\Desktop\\创建项目\\dame-c\\server\\logs\\server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-07-22 08:39:20,939 INFO 8096 [egg:core] dump config after load, 9ms
+2020-07-22 08:39:21,072 INFO 8096 [egg-watcher] Start watching: ["C:\\Users\\Administrator\\Desktop\\创建项目\\dame-c\\server\\app","C:\\Users\\Administrator\\Desktop\\创建项目\\dame-c\\server\\config","C:\\Users\\Administrator\\Desktop\\创建项目\\dame-c\\server\\mocks","C:\\Users\\Administrator\\Desktop\\创建项目\\dame-c\\server\\mocks_proxy","C:\\Users\\Administrator\\Desktop\\创建项目\\dame-c\\server\\app.js"]
+2020-07-22 08:39:21,072 INFO 8096 [egg-watcher] Start watching: "C:\\Users\\Administrator\\Desktop\\创建项目\\dame-c\\server\\app"
+2020-07-22 08:39:21,072 INFO 8096 [egg-watcher] Start watching: "C:\\Users\\Administrator\\Desktop\\创建项目\\dame-c\\server\\config"
+2020-07-22 08:39:21,073 INFO 8096 [egg-watcher] Start watching: "C:\\Users\\Administrator\\Desktop\\创建项目\\dame-c\\server\\mocks"
+2020-07-22 08:39:21,073 INFO 8096 [egg-watcher] Start watching: "C:\\Users\\Administrator\\Desktop\\创建项目\\dame-c\\server\\mocks_proxy"
+2020-07-22 08:39:21,073 INFO 8096 [egg-watcher] Start watching: "C:\\Users\\Administrator\\Desktop\\创建项目\\dame-c\\server\\app.js"
+2020-07-22 08:39:21,073 INFO 8096 [egg-watcher:agent] watcher start success
+2020-07-22 08:39:21,104 INFO 8096 [egg:core] dump config after ready, 16ms
+2020-07-22 14:18:27,566 INFO 4940 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\Administrator\\Desktop\\创建项目\\dame-c\\server\\logs\\server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-07-22 14:18:27,582 INFO 4940 [egg:core] dump config after load, 10ms
+2020-07-22 14:18:28,035 INFO 4940 [egg-watcher] Start watching: ["C:\\Users\\Administrator\\Desktop\\创建项目\\dame-c\\server\\app","C:\\Users\\Administrator\\Desktop\\创建项目\\dame-c\\server\\config","C:\\Users\\Administrator\\Desktop\\创建项目\\dame-c\\server\\mocks","C:\\Users\\Administrator\\Desktop\\创建项目\\dame-c\\server\\mocks_proxy","C:\\Users\\Administrator\\Desktop\\创建项目\\dame-c\\server\\app.js"]
+2020-07-22 14:18:28,035 INFO 4940 [egg-watcher] Start watching: "C:\\Users\\Administrator\\Desktop\\创建项目\\dame-c\\server\\app"
+2020-07-22 14:18:28,035 INFO 4940 [egg-watcher] Start watching: "C:\\Users\\Administrator\\Desktop\\创建项目\\dame-c\\server\\config"
+2020-07-22 14:18:28,036 INFO 4940 [egg-watcher] Start watching: "C:\\Users\\Administrator\\Desktop\\创建项目\\dame-c\\server\\mocks"
+2020-07-22 14:18:28,036 INFO 4940 [egg-watcher] Start watching: "C:\\Users\\Administrator\\Desktop\\创建项目\\dame-c\\server\\mocks_proxy"
+2020-07-22 14:18:28,036 INFO 4940 [egg-watcher] Start watching: "C:\\Users\\Administrator\\Desktop\\创建项目\\dame-c\\server\\app.js"
+2020-07-22 14:18:28,037 INFO 4940 [egg-watcher:agent] watcher start success
+2020-07-22 14:18:28,079 INFO 4940 [egg:core] dump config after ready, 16ms
+2020-07-22 22:13:09,940 INFO 8568 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\Administrator\\Desktop\\创建项目\\dame-c\\server\\logs\\server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-07-22 22:13:09,957 INFO 8568 [egg:core] dump config after load, 10ms
+2020-07-22 22:13:10,433 INFO 8568 [egg-watcher] Start watching: ["C:\\Users\\Administrator\\Desktop\\创建项目\\dame-c\\server\\app","C:\\Users\\Administrator\\Desktop\\创建项目\\dame-c\\server\\config","C:\\Users\\Administrator\\Desktop\\创建项目\\dame-c\\server\\mocks","C:\\Users\\Administrator\\Desktop\\创建项目\\dame-c\\server\\mocks_proxy","C:\\Users\\Administrator\\Desktop\\创建项目\\dame-c\\server\\app.js"]
+2020-07-22 22:13:10,433 INFO 8568 [egg-watcher] Start watching: "C:\\Users\\Administrator\\Desktop\\创建项目\\dame-c\\server\\app"
+2020-07-22 22:13:10,436 INFO 8568 [egg-watcher] Start watching: "C:\\Users\\Administrator\\Desktop\\创建项目\\dame-c\\server\\config"
+2020-07-22 22:13:10,436 INFO 8568 [egg-watcher] Start watching: "C:\\Users\\Administrator\\Desktop\\创建项目\\dame-c\\server\\mocks"
+2020-07-22 22:13:10,436 INFO 8568 [egg-watcher] Start watching: "C:\\Users\\Administrator\\Desktop\\创建项目\\dame-c\\server\\mocks_proxy"
+2020-07-22 22:13:10,436 INFO 8568 [egg-watcher] Start watching: "C:\\Users\\Administrator\\Desktop\\创建项目\\dame-c\\server\\app.js"
+2020-07-22 22:13:10,437 INFO 8568 [egg-watcher:agent] watcher start success
+2020-07-22 22:13:10,481 INFO 8568 [egg:core] dump config after ready, 18ms
