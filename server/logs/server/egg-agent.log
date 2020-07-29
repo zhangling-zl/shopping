@@ -49,3 +49,13 @@
 2020-07-29 08:40:16,459 INFO 4844 [egg-watcher] Start watching: "C:\\Users\\Administrator\\Desktop\\创建项目\\dame-c\\server\\app.js"
 2020-07-29 08:40:16,459 INFO 4844 [egg-watcher:agent] watcher start success
 2020-07-29 08:40:16,490 INFO 4844 [egg:core] dump config after ready, 10ms
+2020-07-29 08:49:50,199 INFO 7936 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\Administrator\\Desktop\\创建项目\\dame-c\\server\\logs\\server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-07-29 08:49:50,210 INFO 7936 [egg:core] dump config after load, 5ms
+2020-07-29 08:49:50,253 INFO 7936 [egg-watcher] Start watching: ["C:\\Users\\Administrator\\Desktop\\创建项目\\dame-c\\server\\app","C:\\Users\\Administrator\\Desktop\\创建项目\\dame-c\\server\\config","C:\\Users\\Administrator\\Desktop\\创建项目\\dame-c\\server\\mocks","C:\\Users\\Administrator\\Desktop\\创建项目\\dame-c\\server\\mocks_proxy","C:\\Users\\Administrator\\Desktop\\创建项目\\dame-c\\server\\app.js"]
+2020-07-29 08:49:50,253 INFO 7936 [egg-watcher] Start watching: "C:\\Users\\Administrator\\Desktop\\创建项目\\dame-c\\server\\app"
+2020-07-29 08:49:50,253 INFO 7936 [egg-watcher] Start watching: "C:\\Users\\Administrator\\Desktop\\创建项目\\dame-c\\server\\config"
+2020-07-29 08:49:50,254 INFO 7936 [egg-watcher] Start watching: "C:\\Users\\Administrator\\Desktop\\创建项目\\dame-c\\server\\mocks"
+2020-07-29 08:49:50,254 INFO 7936 [egg-watcher] Start watching: "C:\\Users\\Administrator\\Desktop\\创建项目\\dame-c\\server\\mocks_proxy"
+2020-07-29 08:49:50,254 INFO 7936 [egg-watcher] Start watching: "C:\\Users\\Administrator\\Desktop\\创建项目\\dame-c\\server\\app.js"
+2020-07-29 08:49:50,255 INFO 7936 [egg-watcher:agent] watcher start success
+2020-07-29 08:49:50,273 INFO 7936 [egg:core] dump config after ready, 9ms
